@@ -42,7 +42,7 @@ p{
 }
 
 .image-title{
-    width: 60%;
+    width: 50%;
     transform: rotate(25deg);
     position: absolute;
     right: 30%;
@@ -66,10 +66,13 @@ p{
 /*Testimonials*/
 
 #testimonials{
-    padding:7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+
+#carouselCont{
+    padding:7% 15%; 
 }
 
 h2{
@@ -93,4 +96,22 @@ h2{
 .press-logo{
     width: 17%;
     margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+.Rate{
+    text-align: center;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+    text-align:center;
+}
+
+.des{
+    text-align: center;
 }
