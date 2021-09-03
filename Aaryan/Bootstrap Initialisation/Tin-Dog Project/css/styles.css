@@ -117,3 +117,32 @@ h2{
 }
 
 /*Call of Action*/
+
+.Action{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.download-btn{
+    margin: 9% 3% 0 6%;
+}
+
+.at{
+    font-size: 40px;
+}
+
+#footer{
+    padding: 7% 15% 10% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    padding: 15px 10px;
+    margin-bottom: 5px;
+}
