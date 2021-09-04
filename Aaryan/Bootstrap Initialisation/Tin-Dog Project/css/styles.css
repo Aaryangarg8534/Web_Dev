@@ -63,6 +63,18 @@ p{
     color: #ff4c68;
 }
 
+@media (max-width: 1028px){
+    #title{
+        text-align:center;
+    }
+
+    .image-title{
+        position: static;
+        transform: rotate(0);
+        margin-top: 10%;
+    }
+}
+
 /*Testimonials*/
 
 #testimonials{
