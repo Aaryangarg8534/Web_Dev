@@ -28,10 +28,20 @@ $(".btn").click(function() {
 });
 
 function checkAnswer(currentLevel){
-    
+    if(gamePattern[currentLevel] ===userClickedPattern[currentLevel] ){
+        if(userClickedPattern.length === gamePattern.length){
+            console.log("sucess");
+            setTimeout(function (){
+                nextSequence();
+            },1000);
+        }
+    }else{
+        console.log("wrong");
+    }
 }
 
 function nextSequence() {
+    userClickedPattern = [];
     level++;
     var randomNumber = Math.floor(Math.random() * 4);
     var randomChosenColour = buttonColours[randomNumber];
