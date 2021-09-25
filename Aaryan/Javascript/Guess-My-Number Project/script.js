@@ -1,4 +1,5 @@
 'use strict';
+//$ = document.querySelector
 //I use mixture of Javascript and jquery so don't get confused by syntx
 /*console.log(document.querySelector('.message').textContent);
 
@@ -36,7 +37,31 @@ $('.check').click(function () {
       $('.message').text('You Lost The Game!');
       $('.score').text(0);
     }
-  } else {
+  }
+  // when number is too low
+  /*else if (secertNumber > guess) {
+    if (newScore > 1) {
+      $('.message').text('👎 Too Low!');
+      newScore--;
+      $('.score').text(newScore);
+    } else {
+      $('.message').text('You Lost The Game!');
+      $('.score').text(0);
+    }
+  }
+
+  //when number is to high
+  else if (secertNumber < guess) {
+    if (newScore > 1) {
+      $('.message').text('👎 Too High!');
+      newScore--;
+      $('.score').text(newScore);
+    } else {
+      $('.message').text('You Lost The Game!');
+      $('.score').text(0);
+    }
+  } */
+  else {
     $('.message').text('👑 Correct Number!');
     $('.number').text(secertNumber);
     document.querySelector('body').style.backgroundColor = '#60b347';
