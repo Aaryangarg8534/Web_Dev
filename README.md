@@ -8,3 +8,9 @@ This is Aaryan Garg a second year undergrad student at `Maharaja agrasen Institu
 I am currently working on my DSA skills and I am competent in C++.
 I am an enthusiastic Web Developer and currently learning Javascript.
 Looking ahead to learn new skills and technological developments.
+
+# To Connect With Me
+Gmail: ajayaaryan4u@gmail.com
+LinkedIn:https://www.linkedin.com/in/aaryan-garg-0b7a4b208
+Mobile / WhatApp: +91 8534801513
+Twitter: https://twitter.com/Aaryan8534?s=08
