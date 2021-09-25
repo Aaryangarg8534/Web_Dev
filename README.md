@@ -11,6 +11,9 @@ Looking ahead to learn new skills and technological developments.
 
 # To Connect With Me
 Gmail: ajayaaryan4u@gmail.com
+
 LinkedIn:https://www.linkedin.com/in/aaryan-garg-0b7a4b208
+
 Mobile / WhatApp: +91 8534801513
+
 Twitter: https://twitter.com/Aaryan8534?s=08
