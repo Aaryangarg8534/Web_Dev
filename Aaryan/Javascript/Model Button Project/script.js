@@ -25,6 +25,14 @@ btnClosemodal.addEventListener('click', closeModal);
 
 overlay.addEventListener('click', closeModal);
 
+//Now we handle Escape key in our Keyboard
+document.addEventListener('keydown', function (e) {
+  console.log(e.key);
+  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+    closeModal();
+  }
+});
+
 /*I refactoring(Short) my code 
 btnClosemodal.addEventListener('click', function () {
   //console.log('Button clicked');
