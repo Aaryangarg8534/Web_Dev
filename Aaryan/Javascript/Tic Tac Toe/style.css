@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto:ital,wght@1,300&display=swap");
 
 * {
   margin: 0;
@@ -21,7 +21,6 @@ nav ul {
 }
 
 .gameContainer {
-  background-color: yellowgreen;
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -45,4 +44,26 @@ nav ul {
 
 .box:hover {
   background-color: rgb(217, 180, 252);
+}
+
+.gameInfo {
+  padding: 0 24px;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+
+.imgbox img {
+  display: none;
+}
+
+.br-0 {
+  border-right: 0;
+}
+.bl-0 {
+  border-left: 0;
+}
+.bt-0 {
+  border-top: 0;
+}
+.bb-0 {
+  border-bottom: 0;
 }
