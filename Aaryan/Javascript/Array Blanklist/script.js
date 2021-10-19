@@ -75,6 +75,31 @@ const displayMovements = function (movements) {
   });
 };
 displayMovements(account1.movements);
+
+const createUsernames = function (accs) {
+  accs.forEach(function (acc) {
+    acc.username = acc.owner
+      .toLowerCase()
+      .split(" ")
+      .map((name) => name[0])
+      .join("");
+  });
+};
+createUsernames(accounts);
+console.log(accounts);
+
+/*const createUsernames = function (user) {
+  const username = user
+    .toLowerCase()
+    .split(" ")
+    .map((name) => name[0])
+    .join("");
+  return username;
+};
+console.log(createUsernames("Steven Thomas Williams"));
+
+//map method took an extra space because map create a new array
+//but forEach doesn't create new array he can only modify existing array
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
@@ -85,7 +110,7 @@ const currencies = new Map([
   ["GBP", "Pound sterling"],
 ]);
 
-/*const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
 for (const [i, movement] of movements.entries()) {
